@@ -1,5 +1,5 @@
-Codebook for Week 4 Data Cleaning Project
-Question 1:
+#Codebook for Week 4 Data Cleaning Project
+#Question 1:
 1.  Download zip files to desired directory
       getwd()
       setwd ("E:/Coursera/Data Science/Getting and Cleaning Data/Week 4")   
@@ -30,11 +30,11 @@ Question 1:
     XTrain1 <- cbind(XTrain, group)
     combined <- rbind(XTrain1, XTest1)
 
-Question 2:
+#Question 2:
 1.  Select out variables with string "mean()", "std()", "subjects", "actions", "group"
 2.  Combine the variables into a master dataset, "masterdata"
 
-Question 3:
+#Question 3:
 1.  Change numerical coding for activities "actions" to meaningful descriptions
     1  <- "Walking"
     2  <- "Walking Upstairs"
@@ -43,7 +43,7 @@ Question 3:
     5  <- "Standing"
     6  <- "Laying"
 
-Question 4:
+#Question 4:
 1.  Expand acronyms to full word
     "Acc" --> "Accelerator"
     "Mag" --> "Magnitude"
@@ -52,6 +52,6 @@ Question 4:
     "f" --> "frequency"
     "01:30" --> "subject 01:subject 30"
 
-Question 5:
+#Question 5:
 1.  Find mean of all variables by each subject and activity
 2.  Save result as .txt file
